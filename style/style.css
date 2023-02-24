@@ -217,10 +217,11 @@ display: inline-block;
   } */
 
 .price_block{
-width: 100%;
+
 background: #F5F5F5;
 margin: 0 auto ;
 padding-bottom: 50px; 
+
    }
 
 
@@ -246,7 +247,8 @@ margin-bottom: 40px;
 
 .ipsum{
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
+align-items: center;
 }
 
 
@@ -257,7 +259,9 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-margin:0 30px 0 168px;
+margin-left: 168px;
+
+
 
 }
 
@@ -319,16 +323,17 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-margin-right: 30px;
+
 
 }
 
 .prise_pro{
-  text-align: center;
+text-align: center;
 Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
 margin-right: 168px;
+
 
 }
