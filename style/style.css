@@ -4,6 +4,7 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  font-size: 0;
 }
 
 .main_block{
@@ -230,7 +231,6 @@ padding-bottom: 50px;
 font-weight: 400;
 font-size: 36px;
 line-height: 42px;
-
 align-items: center;
 text-align: center;
 text-transform: uppercase;
@@ -259,7 +259,7 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-margin-left: 168px;
+margin-left: 98px;
 
 
 
@@ -273,12 +273,12 @@ font-family: 'Open Sans';
 font-weight: 700;
 font-size: 24px;
 line-height: 33px;
-margin:59px 0px 1px 0;
+margin:0px 0px 1px 0;
 
 }
 
 .name_price.one{
-margin-top: 79px;
+/* margin-top: 79px; */
 }
 
 .dollar{
@@ -316,6 +316,10 @@ margin-bottom: 1px ;
 background-color: #fff;
 }
 
+.block_basic,.block_pro{
+  margin-top: 79px;
+}
+
 .prise_optima{
 
 text-align: center;
@@ -333,7 +337,7 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-margin-right: 168px;
+margin-right: 98px;
 
 
 }
