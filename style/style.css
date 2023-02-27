@@ -250,8 +250,18 @@ margin-bottom: 40px;
 
 .ipsum{
 display: flex;
-justify-content: space-between;
+/* justify-content: space-between; */
 align-items: center;
+
+flex-wrap: wrap;
+margin: 0 -15px;
+
+}
+
+.block_basic, .block_optima, .block_pro{
+
+  padding: 15px;
+  width: 33.3%;
 
 }
 
@@ -261,7 +271,7 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-width: 370px;
+
 }
 
 .name_price{
@@ -323,7 +333,7 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-width: 370px;
+width: 100%;
 
 }
 
@@ -333,5 +343,5 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-width: 370px;
+width: 100%;
 }
