@@ -251,8 +251,7 @@ margin-bottom: 40px;
 .ipsum{
 display: flex;
 /* justify-content: space-between; */
-align-items: center;
-
+align-items: center; 
 flex-wrap: wrap;
 margin: 0 -15px;
 
@@ -295,8 +294,9 @@ font-size: 36px;
 line-height: 42px;
 background: #333333;
 color: white;
-padding: 29px 153px;
+padding: 29px;
 margin-bottom: 1px;
+width: 100%;
 }
 
 .free_life_text{
@@ -304,10 +304,11 @@ font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-padding: 15px 137px;
+padding: 15px ;
 color: rgba(255, 255, 255, 0.5);
 background: #333333;
 margin-bottom: 2px;
+width: 100%;
 }
 
 .Space_block{
