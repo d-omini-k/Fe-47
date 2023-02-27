@@ -209,19 +209,20 @@ display: inline-block;
   padding: 0px;
   }
 
-  /* .new_block{
+  .container_prise{
 
-    max-width: 1200px;
-    margin: 58px auto 104px ;
-    padding: 0 15px;
+  background-color: #F5F5F5;
+  padding-bottom: 50px;
     
-  } */
+    }
 
 .price_block{
 
 background: #F5F5F5;
 margin: 0 auto ;
-padding-bottom: 50px; 
+padding-bottom: 50px;
+max-width: 1200px;
+padding: 0 15px;
 
    }
 
@@ -245,13 +246,14 @@ margin-bottom: 40px;
   margin-bottom: 59px;
 }
 
+
+
 .ipsum{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
+
 }
-
-
 
 .prise_basic{
 text-align: center;
@@ -259,16 +261,13 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-margin-left: 98px;
-
-
-
+width: 370px;
 }
 
 .name_price{
 background: #333333;
 color: white;
-padding: 14px 153px;
+padding: 14px 0px;
 font-family: 'Open Sans';
 font-weight: 700;
 font-size: 24px;
@@ -277,9 +276,6 @@ margin:0px 0px 1px 0;
 
 }
 
-.name_price.one{
-/* margin-top: 79px; */
-}
 
 .dollar{
 
@@ -311,7 +307,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 21px;
 color: #86878B;
-padding: 15px 125px;
+padding: 15px 0;
 margin-bottom: 1px ;
 background-color: #fff;
 }
@@ -327,7 +323,7 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-
+width: 370px;
 
 }
 
@@ -337,7 +333,5 @@ Font-family: 'Raleway';
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-margin-right: 98px;
-
-
+width: 370px;
 }
