@@ -90,7 +90,6 @@ p {
   display: inline-block;
 }
 
-
 .head-section_text {
   font-family: "Raleway";
   font-weight: 400;
@@ -369,4 +368,8 @@ p {
 
 .head_paragr.prise.info {
   padding-bottom: 83px;
+}
+
+.img_people {
+  border-radius: 50%;
 }
