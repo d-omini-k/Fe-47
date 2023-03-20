@@ -35,15 +35,13 @@
 
 .container {
     max-width: 1170px;
-    height: 501px;
     margin: 0px auto 0;
     border: 1px solid #c6cbcd;
 }
 
 .block_info {
-    max-width: 570px;
+    max-width: 569px;
     display: inline-block;
-
     vertical-align: top;
     margin: 50px 38px 0 100px;
 }
@@ -199,10 +197,15 @@ p {
     color: #86878b;
 }
 
+.wrap_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
 .wrap_block {
-    max-width: 370px;
-    display: inline-block;
-    margin-right: 25px;
+    max-width: 33.33%;
+    gap: 25px;
     margin-bottom: 58px;
 }
 
@@ -255,6 +258,8 @@ p {
     background-color: #f5f5f5;
     padding-bottom: 50px;
 }
+
+
 
 .price_block {
     background: #f5f5f5;
@@ -550,7 +555,8 @@ svg:hover #ic {
 .main_logo {
     position: relative;
     margin: 0;
-    background: url("../img/image.png") no-repeat center/cover;
+    background: url("../img/image.svg") no-repeat center/cover;
+
 
 
 }
@@ -568,10 +574,11 @@ svg:hover #ic {
 
 
 .main__information {
-    padding: 207px 0 185px 0;
+    padding: 207px 15px 185px ;
     position: relative;
     display: flex;
     z-index: 2;
+    align-items: flex-start;
 }
 
 .icon_log {
@@ -634,6 +641,7 @@ svg:hover #ic {
     padding: 15px 85px;
     transition: .5s;
 
+
 }
 
 
@@ -650,7 +658,7 @@ svg:hover #ic {
     /*position: relative;*/
     background-color: #FFFFFF;
     margin-left: 30px;
-    border-radius: 5px;
+    border-radius: 7px;
 
 }
 
@@ -729,7 +737,7 @@ svg:hover #ic {
     cursor: pointer;
     transition: .4s;
     align-items: flex-end;
-    /*border-radius: 5px;*/
+    margin-top: 75px;
 }
 
 .btn_start:hover {
@@ -1011,4 +1019,182 @@ svg:hover #foo {
 
     fill: #ec7979;
 }
+
+@media (max-width: 1024px) {
+
+.logo{
+    padding-left: 115px;
+}
+    .modern{
+        max-width: 454px;
+        font-size: 36px;
+    }
+    .mini_par{
+        font-size: 14px;
+    }
+
+    .text_modern::before {
+        position: absolute;
+        content: "";
+        width: 115px;
+        height: 1px;
+        bottom: 0;
+        background: white;
+    }
+
+    .container__content_head{
+        max-width: 454px;
+    }
+
+    .main__information{
+        margin: 0 auto;
+
+    }
+    .container__content_head{
+        margin: 0 36px 0 115px;
+
+    }
+
+    .form_head{
+        margin: 0;
+        max-width: 398px;
+    }
+    .lab{
+        max-width: 298px;
+    }
+    .form_info input{
+        max-width: 298px;
+        padding-bottom: 33px;
+
+    }
+
+    .form_info{
+        margin-bottom: 33px;
+    }
+
+
+    .text_form{
+        font-size: 18px;
+        margin-bottom: 77px;
+    }
+
+    .btn_start{
+        margin-top: 75px;
+
+    }
+    .form_head{
+        margin-right: 20px;
+    }
+
+    .mini_par{
+        max-width: 183px;
+    }
+    .down{
+        padding: 18px 47px;
+    }
+    .content_title{
+        max-width: 402px;
+        margin-right: 20px;
+    }
+
+    .txt{
+        font-size: 18px;
+    }
+    .apir{
+        font-size: 14px ;
+    }
+    .content_icon{
+        margin-left: 0px;
+    }
+
+    .icc{
+        width: 28px;
+        height: 51px;
+    }
+
+    .icc1{
+        width: 52px;
+        height: 42px;
+
+    }
+    .icc2{
+        width: 48px;
+        height: 48px;
+
+    }
+
+    .icc3{
+        width: 53px;
+        height: 53px;
+
+    }
+
+    .icc4{
+        width: 48px;
+        height: 48px;
+
+    }
+    .icc5{
+        width: 53px;
+        height: 51px;
+
+    }
+
+    .icc6{
+        width: 41px;
+        height: 41px;
+
+    }
+
+    .header_text{
+        font-size: 24px;
+    }
+    .long_text,.short_text{
+        font-size: 14px;
+    }
+
+    .block_info{
+        max-width: 482px ;
+        margin-left:84px ;
+    }
+
+    .main_img{
+        width: 398px;
+        display: none;
+    }
+
+    .head-section_text{
+        font-size: 24px;
+    }
+
+    .head-section_text:after {
+
+        position: absolute;
+        top: 100%;
+        left: calc(50% - 85px);
+        content: "";
+        width: 142px;
+        border: 1px solid #EC7979;
+
+    }
+
+    .head_paragr{
+        font-size: 14px;
+    }
+    .head-text_block{
+        font-size: 18px;
+    }
+
+    .block-for_text{
+        font-size: 14px;
+    }
+
+    .wrap_block{
+        margin-right: 20px;
+    }
+
+
+}
+
+
 
