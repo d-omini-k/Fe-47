@@ -1071,16 +1071,10 @@ svg:hover #foo {
         font-size: 14px;
         text-align: center;
         padding: 0;
-        margin: 0 auto;
-    }
-    .min{
-        margin: 0 auto;
-
     }
 
-    .knopka{
-        margin: 0 auto;
-    }
+
+
 
     .text_modern{
         max-width: 454px;
@@ -1089,7 +1083,6 @@ svg:hover #foo {
     .text_modern::before {
         position: absolute;
         content: "";
-        left: calc(50% - 65px);
         width: 115px;
         height: 1px;
         bottom: 0;
@@ -1345,6 +1338,31 @@ svg:hover #foo {
     max-width: 100%;
 
 }
+    .knopka{
+        margin: 0 auto;
+    }
+
+    .mini_par{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .text_modern::before {
+        position: absolute;
+        left: calc(50% - 65px);
+        content: "";
+        width: 115px;
+        height: 1px;
+        bottom: 0;
+        background: white;
+
+    }
+
+
+    .min{
+        margin: 0 auto;
+
+    }
 
     .logo{
         padding: 0;
